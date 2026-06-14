@@ -229,8 +229,7 @@ InfiniBand는 처음부터 HPC/AI처럼 낮은 지연과 높은 대역폭이 필
 
 1. NCCL이 collective operation을 호출하여 HCA와 Verbs API 사이를 연결한다.
 2. HCA는 서버에 PCIe로 꽂히는 InfiniBand 전용 네트워크 카드이다.
-    - RDMA 엔진이 내장되어 CPU 개입 없이 메모리 간 직접 전송을 처리한다.
-    - QP(Queue Pair) 또한 내장되어 있어, 
+    - **RDMA 엔진이 내장되어 CPU 개입 없이 메모리 간 직접 전송을 처리한다.**
 3. Edge Switch(Leaf Switch) 스위치는 일반 이더넷 스위치와 다르게 Subnet Manager의 지시에 따라 미리 계산된 경로로만 패킷을 전달한다.
 4. Core Switch는 여러 Edge Switch를 연결하여 Edge Switch 간 단일 연결을 방지하여 bisection bandwidth를 보장한다.
 5. Subnet Manager는 Fabric 전체를 관리하는 소프트웨어이다.
