@@ -4,6 +4,7 @@
 
 ## 1. Prefill과 Decode의 병목 자원이 왜 다른가
 
+
 같은 transformer를 지나지만 연산 모양(arithmetic intensity)이 다르기 때문이다.
 
 | 단계 | 처리 방식 | 포화되는 자원 | 이유 |
