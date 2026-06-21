@@ -391,3 +391,11 @@ https://tech.kakaopay.com/post/ai-platform/#%EA%B7%B8-%EB%8B%B5%EC%9D%84-%ED%98%
 > RoCEv2가 일반 Ethernet과 무엇이 다른지 말할 수 있는가?
 > AllReduce와 ReduceScatter의 결과 모양을 그림 없이 설명할 수 있는가?
 > NCCL이 느릴 때 fabric, topology, provider, rank placement 중 어느 층부터 확인할지 말할 수 있는가?
+
+--- 
+
+Ultra ethernet consortium
+
+RoCE와 Ultra Ethernet에 관한 스펙을 볼 수 있음
+
+https://ultraethernet.org/
